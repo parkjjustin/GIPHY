@@ -7,7 +7,7 @@ function displayAnimals() {
 	$(this).css("background-color", "#444");
 
 	var animal = $(this).data("topic");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal +"&api_key=dc6zaTOxFJmzC"
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal +"&api_key=dc6zaTOxFJmzC"
 	$.ajax({url: queryURL, method: 'GET'})
 
 
