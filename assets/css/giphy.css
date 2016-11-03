@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Francois One', sans-serif;
+	background-color: #ccc;
+	color: white;
+}
+
+
+.button-container {
+	margin-top: 0;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.giph-container {
+	margin: 0 auto;
+	height: 100%;
+}
+
+.giphys-appear {
+	float: left;
+	min-height: 900px;
+	height: 100%;
+	width: 80%;
+}
+
+.button-topic {
+	width: 200px;
+	height: 20px;
+	margin: 10px;
+	background-color: gray;
+	font-family: 'Francois One', sans-serif;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+button {
+	width: 200px;
+	height: 20px;
+	margin: 10px;
+	background-color: #444;
+	font-family: 'Francois One', sans-serif;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+.button-topic:hover {
+	background-color: #999;
+	
+}
+
+#addTopic {
+	width: 75px;
+	height: 20px;
+	margin: 10px;
+	background-color: gray;
+	font-family: 'Hind', sans-serif;
+	border: none;
+	border-radius: 5px;
+}
+
+#topic-input {
+	width: 220px;
+	border-radius: 5px;
+}
+
+#giphyHolder {
+	display: inline-block;
+	margin: 10px;
+}
+
+.form {
+	float: left;
+	width: 20%;
+	min-width: 260px;
+	height: 100%;
+	min-height: 900px;
+}
+
+#topic-form {
+	margin: 30px 30px;
+}
